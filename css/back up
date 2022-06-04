@@ -1,0 +1,57 @@
+
+body{
+    display: flex;
+}
+#game-screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+.life-bar img{
+    height: 35px;
+    width: 30px;
+}
+.life-bar li{
+    display: inline;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.answers ul{
+    padding:  0;
+}
+.option{
+    border: solid 4px red;
+    background: rgb(238, 236, 236); 
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 1px 0 1px;
+    margin: 1em;
+    list-style-type: none;
+
+}
+.pokemon-display img{
+    height: 400px;
+    width: 600px;
+}
+
+
+/* #game-screen{
+    display: none;
+} */
+
+.menu{
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+
